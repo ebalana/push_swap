@@ -6,7 +6,7 @@
 /*   By: ebalana- <ebalana-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/07 17:28:49 by arcebria          #+#    #+#             */
-/*   Updated: 2025/01/10 12:43:43 by ebalana-         ###   ########.fr       */
+/*   Updated: 2025/01/10 15:49:33 by ebalana-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,9 @@ int	main(int ac, char **av)
 		if (stack_a && check_sorted(stack_a))
 		{
 			if (stack_len(stack_a) <= 5)
-			{
 				sort_small(&stack_a, &stack_b);
-				print_stack(stack_a); // Test
-			}
 			else
-			{
 				sort_big(&stack_a, &stack_b);
-				print_stack(stack_a); // Test
-			}
 		}
 		free_stack(&stack_a);
 	}

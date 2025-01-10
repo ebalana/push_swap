@@ -6,7 +6,7 @@
 /*   By: ebalana- <ebalana-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/09 15:26:36 by arcebria          #+#    #+#             */
-/*   Updated: 2025/01/10 14:24:23 by ebalana-         ###   ########.fr       */
+/*   Updated: 2025/01/10 16:01:21 by ebalana-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,23 +49,4 @@ void	ss(t_stack **stack_a, t_stack **stack_b)
 	swap(stack_a);
 	swap(stack_b);
 	ft_printf("ss\n");
-}
-
-//test
-void print_stack(t_stack *stack)
-{
-    if (stack == NULL)
-    {
-        printf("Stack está vacío\n");
-        return;
-    }
-
-    t_stack *current = stack;
-    
-    while (current != NULL)
-    {
-        printf("%ld ", current->num);
-        current = current->next; 
-    }
-    printf("\n");
 }

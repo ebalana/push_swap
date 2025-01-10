@@ -6,7 +6,7 @@
 /*   By: ebalana- <ebalana-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/07 17:27:16 by arcebria          #+#    #+#             */
-/*   Updated: 2025/01/10 12:56:14 by ebalana-         ###   ########.fr       */
+/*   Updated: 2025/01/10 17:37:26 by ebalana-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,9 +58,5 @@ void	sort_three(t_stack **stack);
 void	sort_four(t_stack **stack_a, t_stack **stack_b);
 void	sort_five(t_stack **stack_a, t_stack **stack_b);
 void	sort_big(t_stack **stack_a, t_stack **stack_b);
-
-// Test //
-
-void	print_stack(t_stack *stack);
 
 #endif
