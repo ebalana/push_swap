@@ -19,7 +19,7 @@ int	main(int ac, char **av)
 
 	stack_a = NULL;
 	stack_b = NULL;
-	if (ac > 2)
+	if (ac > 1)
 	{
 		start_stack(&stack_a, av + 1);
 		if (stack_a && check_sorted(stack_a))
